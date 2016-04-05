@@ -1,0 +1,38 @@
+questionA:
+
+compilation: g++ -o lab3 lab3.cpp
+Execution:./lab3
+
+questionB:
+result:
+	(1)size=1000
+		sort():0seconds
+		v1/v2are different.
+		insertion_sort():0.01seconds
+		v1/v2are the same.
+	(2)size=10000
+		sort():0seconds
+        v1/v2are different.
+        insertion_sort():1.3seconds
+        v1/v2are the same.
+	(3)size=100000
+		sort():0.04seconds
+        v1/v2are different.
+        insertion_sort():128.4seconds
+        v1/v2are the same.
+	(4)size=1000000
+		sort():0.51seconds
+        v1/v2are different.
+        insertion_sort():	seconds
+explanation:
+	The way of sort() is obvious faster than insertion_sort().When the size becomes larger,the gap of the time becomes larger.
+	The different between n square and nlogn is that the n square(insertion_sort)takes more time than nlogn(sort()).The gap of the time becomes larger,as the n
+increasing.
+
+          
+
+
+
+		
+	
+
